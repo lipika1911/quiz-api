@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/quiz/.*", "dest": "/api/quiz.js" },
+    { "src": "/", "dest": "/api/quiz.js" }
+  ]
+}
